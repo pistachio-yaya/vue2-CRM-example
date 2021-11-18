@@ -11,6 +11,13 @@ module.exports = {
       path: path.resolve(__dirname, "../dist"),
       publicPath: "/",
     },
+    devServer: {
+      port: 3009, // 启动端口
+      hot: true, // 是否开启热模块替换
+      open: true, // 是否开启自动打开页面
+      proxy: {
+      }
+    },
     plugins: [
         new VueLoaderPlugin(),
         new HtmlWebpackPlugin({
