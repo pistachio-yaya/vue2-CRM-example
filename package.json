@@ -20,8 +20,11 @@
   "homepage": "https://github.com/pistachio-yaya/vue2-CRM-example#readme",
   "devDependencies": {
     "cache-loader": "^4.1.0",
+    "css-loader": "^6.5.1",
+    "element-ui": "^2.15.6",
     "html-loader": "^3.0.1",
     "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
     "thread-loader": "^3.0.4",
     "vue-loader": "^15.9.8",
     "vue-template-compiler": "^2.6.14",

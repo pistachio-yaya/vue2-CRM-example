@@ -53,6 +53,11 @@ module.exports = {
           },
         ],
         exclude: /node_modules/,
-      },], // 修改模块的创建方式
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+    ], // 修改模块的创建方式
     }, // 模块加载方案
   };
