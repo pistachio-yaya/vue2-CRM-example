@@ -1,2 +1,7 @@
-const a = { x: 1 };
-console.log("测试打包!", a);
+import Vue from "vue";
+import App from "./src/app.vue"
+
+new Vue({
+    el: "#app",
+    render: h => h(App),
+})

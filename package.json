@@ -18,11 +18,17 @@
   },
   "homepage": "https://github.com/pistachio-yaya/vue2-CRM-example#readme",
   "devDependencies": {
+    "cache-loader": "^4.1.0",
+    "html-loader": "^3.0.1",
     "html-webpack-plugin": "^5.5.0",
+    "thread-loader": "^3.0.4",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
     "webpack": "^5.64.1",
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "vue": "^2.6.14"
   }
 }
